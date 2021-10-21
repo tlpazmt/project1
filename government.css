@@ -1,0 +1,169 @@
+/* /////////////header////////////// */
+.header {
+	height: 102px;
+	width: 100%;
+	background: #fff;
+}
+.header .cont {
+	height: 100%;
+	justify-content: space-between;
+}
+.header-menu {
+	text-align: center;
+}
+.header-menu li a p {
+	color: #0a2647;
+	transition: all 0.2s ease-in 0s;
+}
+.header-menu li a p:hover {
+	font-weight: 700;
+}
+.logo img {
+	width: 100px;
+}
+@media (max-width: 768px) {
+	.header {
+		height: 70px;
+	}
+}
+/* /////////////header////////////// */
+
+/* //////////////head////////////// */
+.head {
+	background: #06163a;
+	padding-top: 164px;
+	padding-bottom: 144px;
+	width: 100%;
+	opacity: 0.8;
+}
+.head .cont {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.head h1 {
+	max-width: 936px;
+}
+.head p {
+	color: #fff;
+	max-width: 580px;
+}
+@media (max-width: 1024px) {
+	.head {
+		padding-top: 100px;
+		padding-bottom: 90px;
+	}
+}
+@media (max-width: 768px) {
+	.head {
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+}
+@media (max-width: 375px) {
+	.head {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+/* //////////////head////////////// */
+
+/* //////////////implementation////////////// */
+.implementation {
+	padding: 120px 15px 160px;
+}
+.implementation h3,
+.implementation h4 {
+	margin-bottom: 16px;
+	color: #000;
+}
+.implementation p {
+	margin-bottom: 32px;
+}
+.implementation-img {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 32px;
+	height: 404px;
+	max-width: 710px;
+}
+.implementation-img img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+@media (max-width: 768px) {
+	.implementation {
+		padding: 60px 15px 80px;
+	}
+	.implementation-img {
+		height: 300px;
+	}
+}
+@media (max-width: 425px) {
+	.implementation {
+		padding: 30px 15px 40px;
+	}
+	.implementation-img {
+		height: 200px;
+	}
+	.implementation h3,
+	.implementation h4 {
+		margin-bottom: 10px;
+		color: #000;
+	}
+	.implementation p {
+		margin-bottom: 20px;
+	}
+	.implementation-img {
+		margin-bottom: 20px;
+	}
+}
+/* //////////////implementation////////////// */
+
+/* //////////////challenge////////////// */
+.challenge {
+	text-align: center;
+	background: #06163a;
+	padding: 80px 10px;
+}
+.challenge h3 {
+	color: #fff;
+}
+.challenge p {
+	max-width: 826px;
+	margin: 0 auto;
+	color: #fff;
+}
+@media (max-width: 768px) {
+	.challenge {
+		padding: 50px 10px;
+	}
+}
+@media (max-width: 425px) {
+	.challenge {
+		padding: 20px 10px;
+	}
+}
+/* //////////////challenge////////////// */
+
+/* /////////////footer////////////// */
+.footer {
+	background: #06163a;
+	padding-top: 72px;
+	padding-bottom: 26px;
+	width: 100%;
+}
+.footer p,
+.footer h5 {
+	color: #ffffff;
+}
+@media (max-width: 768px) {
+	.footer {
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}
+	.footer-logo img {
+		width: 110px;
+	}
+}
+/* /////////////footer////////////// */
